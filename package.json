@@ -1,0 +1,26 @@
+{
+  "name": "dd-presentation-engine",
+  "version": "1.0.0",
+  "description": "Data Domain branded PPTX generation engine",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataDomain/template-ppt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DataDomain/template-ppt/issues"
+  },
+  "homepage": "https://github.com/DataDomain/template-ppt#readme",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

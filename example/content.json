@@ -1,0 +1,110 @@
+{
+  "title": "Presentation Title",
+  "author": "Data Domain",
+  "output": "example/example-output.pptx",
+  "slides": [
+    {
+      "template": "cover",
+      "data": {
+        "kicker": "Company Introduction",
+        "title": "Lorem Ipsum Dolor Sit Amet",
+        "subtitle": "Consectetur adipiscing elit — sed do eiusmod tempor",
+        "preparedFor": "[Client Name]",
+        "presentedBy": "[Name] — [Role] — [Email]",
+        "year": 2026
+      },
+      "notes": "Speaker notes go here."
+    },
+    {
+      "template": "agenda",
+      "data": {
+        "items": ["Lorem Ipsum Dolor", "Sit Amet Consectetur", "Adipiscing Elit Sed", "Eiusmod Tempor Incididunt"]
+      }
+    },
+    {
+      "template": "section",
+      "data": {
+        "number": "01",
+        "title": "Lorem Ipsum Dolor",
+        "subtitle": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      }
+    },
+    {
+      "template": "bullets",
+      "data": {
+        "kicker": "Kicker Label",
+        "title": "Lorem Ipsum Dolor Sit",
+        "bullets": [
+          { "head": "Lorem ipsum dolor", "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium." },
+          { "head": "Totam rem aperiam", "body": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt." },
+          { "head": "Nemo enim ipsam", "body": "Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores." },
+          { "head": "Neque porro quisquam", "body": "Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam." },
+          { "head": "Ut enim ad minima", "body": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi." }
+        ],
+        "panel": {
+          "label": "Panel Label",
+          "people": [
+            { "name": "First Person", "role": "Role Title" },
+            { "name": "Second Person", "role": "Role Title" },
+            { "name": "Third Person", "role": "Role Title" }
+          ]
+        }
+      }
+    },
+    {
+      "template": "card-grid",
+      "data": {
+        "kicker": "Kicker Label",
+        "title": "Lorem Ipsum Dolor Sit Amet",
+        "cards": [
+          { "head": "Lorem Ipsum Dolor", "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti." },
+          { "head": "Sit Amet Consectetur", "body": "Et harum quidem rerum facilis est et expedita distinctio nam libero tempore, cum soluta nobis est eligendi." },
+          { "head": "Adipiscing Elit Sed", "body": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates." },
+          { "head": "Eiusmod Tempor Incididunt", "body": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis." },
+          { "head": "Labore Et Dolore Magna", "body": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime." }
+        ]
+      }
+    },
+    {
+      "template": "case-study",
+      "data": {
+        "title": "Lorem Ipsum Case Study Title",
+        "client": "[Client]",
+        "challenge": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.",
+          "Eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "whatWeDid": [
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+          "Cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.",
+          "Cupidatat non proident, sunt in culpa qui officia deserunt."
+        ],
+        "outcome": [
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+          "Accusantium doloremque laudantium, totam rem aperiam eaque.",
+          "Ipsa quae ab illo inventore veritatis et quasi architecto."
+        ],
+        "numbers": [
+          { "value": "6 months", "label": "lorem ipsum dolor sit amet consectetur" },
+          { "value": "10x", "label": "sed do eiusmod tempor incididunt ut labore" },
+          { "value": "MVP", "label": "ut enim ad minim veniam quis nostrud" }
+        ],
+        "link": "www.example.com/case-studies"
+      }
+    },
+    {
+      "template": "closing",
+      "data": {
+        "number": "04",
+        "title": "Discussion & Next Steps",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "contact": {
+          "address": "[Street Address, City, Country]",
+          "email": "info@example.com",
+          "web": "www.example.com"
+        }
+      }
+    }
+  ]
+}

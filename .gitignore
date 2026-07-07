@@ -1,0 +1,5 @@
+node_modules/
+*.pptx
+*.pdf
+example/slide-*.jpg
+example/grid.jpg
